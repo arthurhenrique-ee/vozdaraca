@@ -103,6 +103,7 @@
     font-family:'Work Sans', sans-serif;
     font-size: 12.5px;
     letter-spacing:.02em;
+    color: #fff;
   }
   .topbar .date-line{ opacity:.82; }
   .theme-toggle{
@@ -583,14 +584,10 @@
 <header class="masthead">
   <div class="wrap masthead-inner" id="logoHome" role="button" tabindex="0" aria-label="Voltar para a capa">
     <div class="masthead-mark">
-      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <circle cx="24" cy="24" r="22" stroke="var(--rule-strong)" stroke-width="2"/>
-        <path d="M24 12c-3 5-9 6-9 13 0 5 4 9 9 9s9-4 9-9c0-7-6-8-9-13z" fill="var(--rule-strong)"/>
-      </svg>
       <h1>A Voz da Raça</h1>
     </div>
     <div class="tagline">Memória, cultura e resistência negra</div>
-    <div class="founded">Jornal escolar &mdash; em homenagem ao órgão oficial da Frente Negra Brasileira, 1933&ndash;1937</div>
+    <div class="founded">Em homenagem ao órgão oficial da Frente Negra Brasileira, 1933&ndash;1937</div>
   </div>
 </header>
 
@@ -624,11 +621,11 @@
   <div class="wrap foot-inner">
     <div>
       <h4>A Voz da Raça</h4>
-      <p>Jornal produzido para um trabalho escolar de História, mantendo o nome do periódico fundado pela Frente Negra Brasileira em 1933 &mdash; um dos primeiros grandes jornais negros do país, publicado durante a Primeira República. Seis reportagens, seis integrantes, um só objetivo: dar visibilidade a pautas que a grande imprensa ainda trata como secundárias.</p>
+      <p>Jornal produzido para um trabalho de História, mantendo o nome do periódico fundado pela Frente Negra Brasileira em 1933, um dos primeiros grandes jornais negros do país, publicado durante a Primeira República, dando visibilidade a pautas que a grande imprensa ainda trata como secundárias.</p>
     </div>
     <div class="colophon">
-      Edição especial &middot; 6 reportagens<br>
-      Projeto escolar &middot; 2026
+      A Voz da raça &middot; Jornal Escolar<br>
+      &copy; Todos os direitos reservados &middot; 2026
     </div>
   </div>
 </footer>
@@ -646,7 +643,7 @@ const ARTICLES = [
   dek: "Dados da Fiocruz e da ONU escancaram a disparidade racial na letalidade e revelam o impacto do racismo estrutural no Brasil.",
   readTime: "4 min",
   author: "Clara Santos",
-  image: "", // <- cole aqui o caminho ou base64 da foto de capa desta reportagem
+  image: "img/aguiar.jpg", // <- cole aqui o caminho ou base64 da foto de capa desta reportagem
   hasChart: true,
   body: [
     "Em 2025, foram registradas mais de 40.775 mortes violentas e intencionais no Brasil, o país mais violento da América do Sul, de acordo com dados da ONU. A realidade já é avassaladora &mdash; mas se torna ainda pior quando analisamos quem são as vítimas. Esse tipo de violência tem cor.",
@@ -685,7 +682,7 @@ const ARTICLES = [
   dek: "Cotas ampliaram o acesso, mas permanecer na universidade continua sendo um privilégio limitado por condições socioeconômicas.",
   readTime: "3 min",
   author: "Maria E. Aparecida",
-  image: "",
+  image: "img/madu.jpeg",
   hasChart: false,
   body: [
     "A Lei de Cotas (Lei nº 12.711/2012, atualizada pela Lei nº 14.723/2023) foi um divisor de águas indiscutível na mudança do perfil racial da universidade pública. Mas comemorar o aumento do ingresso sem enfrentar as engrenagens da exclusão é encarar só metade do problema. Dados da Pesquisa Nacional por Amostra de Domicílios (PNAD Contínua/IBGE) escancaram a assimetria: a proporção de jovens brancos que chegam ou concluem o ensino superior ainda é o dobro da observada entre jovens pretos e pardos.",
@@ -708,7 +705,7 @@ const ARTICLES = [
   dek: "Mesmo com lei obrigatória, autores negros seguem escassos nos livros didáticos &mdash; e episódios de censura a obras antirracistas crescem.",
   readTime: "3 min",
   author: "Arthur H. Gunes",
-  image: "",
+  image: "img/arthur.jpg",
   hasChart: false,
   body: [
     "A educadora e pesquisadora Debora Silvestre Missias Alves analisou como a literatura afro-brasileira aparece nos livros didáticos de ensino médio mais vendidos entre 2018, 2019 e 2020, com base em dados do Programa Nacional do Livro Didático (PNLD). Ela constatou que a presença da literatura negra no ensino básico ainda é escassa: &ldquo;em linhas gerais, constata-se poucos autores e poucas obras literárias afro-brasileiras apresentadas aos alunos&rdquo;, descreve.",
@@ -733,7 +730,7 @@ const ARTICLES = [
   dek: "Herança do período escravocrata, a objetificação do corpo da mulher negra ainda se traduz em números alarmantes de violência sexual.",
   readTime: "3 min",
   author: "Giovanna Alves",
-  image: "",
+  image: "img/giovanna.jpg",
   hasChart: false,
   body: [
     "Uma reportagem da agência de jornalismo Alma Preta, com dados do Fórum Brasileiro de Segurança Pública, aponta que 52,2% dos casos de estupro e estupro de vulnerável no Brasil, em 2021, tiveram mulheres negras como vítimas. Além disso, a chance de uma mulher negra ser estuprada é 11,3% maior do que a de uma mulher branca no país.",
@@ -757,7 +754,7 @@ const ARTICLES = [
   dek: "De #OscarsSoWhite a Hattie McDaniel: como a ausência &mdash; e o estereótipo &mdash; de corpos negros nas telas ajuda a sustentar desigualdades fora delas.",
   readTime: "4 min",
   author: "Layla L. Pereira",
-  image: "",
+  image: "img/layla.jpg",
   hasChart: false,
   body: [
     "#OscarsSoWhite (em tradução livre, #OscarTãoBranco). Foi essa hashtag que tomou conta das redes sociais em janeiro de 2015, em referência à ausência de pessoas não brancas entre os indicados a papéis de atuação no Oscar, seja na categoria principal, seja na de coadjuvante. Em 2016, a mesma falta de indicação se repetiu, o que levou artistas negros como Jada Pinkett Smith, Will Smith e o diretor Spike Lee a não comparecerem à premiação. Naquele ano, o ator era cotado para a lista de indicados na categoria de melhor ator, após ser indicado ao Globo de Ouro por sua atuação em <em>Um Homem entre Gigantes</em>. Já o filme <em>Straight Outta Compton: A História do N.W.A</em>, com direção e elenco negros, foi indicado ao Critics Choice Awards e ao People&rsquo;s Choice Awards como melhor filme de drama &mdash; mas, no Oscar, recebeu indicação apenas pelo roteiro, assinado por pessoas brancas.",
@@ -783,7 +780,7 @@ const ARTICLES = [
   dek: "Entre 2012 e 2022, o número de mães solo cresceu 1,7 milhão no país &mdash; e 9 em cada 10 delas são negras.",
   readTime: "3 min",
   author: "Sophia Silva",
-  image: "",
+  image: "img/sophia.jpg",
   hasChart: false,
   body: [
     "Todo mês de maio, o Dia das Mães enche as redes e as vitrines de flores, frases bonitas e ofertas de consumo. Mas por trás dessa imagem romantizada existe uma realidade dura, marcada por desigualdade de raça, gênero e renda.",
